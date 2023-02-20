@@ -1,9 +1,12 @@
 {
   "name": "react_cv",
+  "homepage": "https://swarajkothari.github.io/react_cv",
   "version": "1.0.0",
   "description": "",
   "main": "webpack.config.js",
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "webpack-dev-server --mode development --open --hot"
   },
   "keywords": [],
@@ -20,7 +23,6 @@
     "babel-loader": "^9.1.2",
     "css-loader": "^6.7.3",
     "file-loader": "^6.2.0",
-    "gh-pages": "^5.0.0",
     "html-webpack-plugin": "^5.5.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
