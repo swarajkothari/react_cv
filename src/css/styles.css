@@ -1,0 +1,32 @@
+body {
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #1746A2;
+}
+
+/* .container {
+    margin: 10px;
+    padding: 50px;
+    width: 70%;
+    height: 20%;
+} */
+
+
+.profile_image {
+    border-radius: 50%;
+    border: 7px solid #fff;
+    width: 50%;
+    height: 65%;
+    padding: 10px;
+    float: left;
+    margin-left: 20px;
+    display: inline;
+}
+
+/* .description {
+    margin: 40px 10px;
+    align-items: center;
+    text-align: center;
+    text-justify: auto;
+} */
